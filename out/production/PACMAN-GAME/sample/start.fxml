@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="450.0" style="-fx-background-color: blue;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ControllerStart">
+   <children>
+      <ImageView fitHeight="108.0" fitWidth="401.0" layoutX="26.0" layoutY="67.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../resources/title.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="PlVSCompButton" fitHeight="68.0" fitWidth="413.0" layoutX="20.0" layoutY="324.0" onMouseClicked="#playHandle" pickOnBounds="true" smooth="false">
+         <image>
+            <Image url="@../resources/plVsComp.png" />
+         </image>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </ImageView>
+   </children>
+</AnchorPane>
